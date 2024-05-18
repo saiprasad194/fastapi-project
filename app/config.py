@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     PROJECT_NAME: str = "NMAR Project"
     CONFIG_NAME: str = "base"
     DEBUG: bool = False
-    DATABASE_URI: str = os.getenv("DATABASE_URI","mysql+pymysql://sai:sai@localhost:3306/test")
+    DATABASE_URI: str = os.getenv("DATABASE_URI")
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 10  # 10 minutes
     REFRESH_TOKEN_EXPIRE_MINUTES : int= 60 * 24 * 7  # 7 days
     ALGORITHM : str = "HS256"
