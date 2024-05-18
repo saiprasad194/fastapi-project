@@ -1,6 +1,6 @@
 import json
 
-from app.database import engine, SessionLocal
+from app.db.database import engine, SessionLocal
 from typing import Union, Any, List, Annotated
 from sqlalchemy.orm import Session
 from datetime import datetime, timedelta
