@@ -13,7 +13,7 @@ This is a FastAPI project with SQLAlchemy for database interactions and Alembic 
 ### Step 1: Clone the repository
 
 ```sh
-git clone git@github-account1:saiprasad194/fastapi-project.git
+git clone https://github.com/saiprasad194/fastapi-project
 cd fastapi-project
 ```
 
